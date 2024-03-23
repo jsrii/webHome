@@ -1,0 +1,146 @@
+@font-face {
+    src: url(SFPRODISPLAYREGULAR.woff);
+    font-family: sfpro;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+* {
+    font-family: SF Pro Display;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.mainBackgroundClass {
+    width: 100vw;
+    height: 100vh;
+    /* scale: 103%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; 
+    margin: auto;
+    vertical-align: middle;
+    /*  filter: blur(10px); // If you want to blur the background, and the corresponding animation for it
+    animation: backgroundBlur ease-in-out 3s; */
+}
+
+.mainCard {
+    position: fixed;
+    top: 1%;
+    left: 0.5%;
+    /*  border-radius: 10px;
+    background-color: rgba(61, 61, 61, 0.23);
+    padding: 1rem;
+    backdrop-filter: blur(10px); */
+    color: lightgray;
+    animation: 500ms ease-in-out mainCardIntro;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainCard>div {
+    margin-bottom: 10px;
+}
+
+.greetingHeaderClass {
+    color: white;
+}
+
+.greeterDateContainer {
+    border-radius: 10px;
+    background-color: rgba(61, 61, 61, 0.23);
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+
+}
+
+.divider {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dateClass {
+    color: white;
+}
+
+.timeClass {
+    color: white;
+    font-size: 335%;
+}
+
+
+.iconContainer {
+    width: 4rem;
+    height: auto;
+}
+
+.weatherHeader {
+    color: white;
+    text-align: right;
+}
+
+.citySubheader {
+    text-align: right;
+}
+
+.weatherContainer {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(61, 61, 61, 0.23);
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+
+}
+
+.timeContainer {
+    border-radius: 10px;
+    background-color: rgba(61, 61, 61, 0.23);
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+
+}
+
+@keyframes backgroundBlur {
+    0% {
+        filter: blur(0px);
+    }
+
+    100% {
+        filter: blur(10px);
+    }
+
+}
+
+@keyframes cardInnerBlur {
+    0% {
+        backdrop-filter: blur(0px);
+
+    }
+
+    100% {
+        backdrop-filter: blur(10px);
+
+    }
+}
+
+@keyframes mainCardIntro {
+    0% {
+        opacity: 50%;
+        top: 1%;
+        left: -0.5%;
+    }
+
+    100% {
+        opacity: 100%;
+        top: 1%;
+        left: 0.5%;
+    }
+}
