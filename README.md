@@ -2,8 +2,7 @@
 
 webBackground is a HTML wallpaper made for the windows program, Wallpaper Engine. This wallpaper is also heavily inspired by Apple Design Language and attempts to take a minimalistic approach to a wallpaper which displays useful info. This is the repository for the code itself if you would like to download the background and use it in Wallpaper Engine simply go to the link below:
 
-
-<placeholder>
+[Steam Workshop]()
 
 
 ## Usage
