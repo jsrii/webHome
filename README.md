@@ -7,7 +7,7 @@ webHome is a HTML wallpaper made for the windows program, Wallpaper Engine. This
 
 ## Usage
 
-The main thing you need to change is the value of the variable: ```name``` on line 14 in ```script.js```, which is located under the filepath, ```/scripts/script.js``` of the wallpaper itself which you can get to by simply right clicking on the wallpaper in wallpaper engine and clicking on "Open in Explorer".
+The main thing you need to change is the value of the variable: ```name``` on line 14 in ```script.js```, which is located under the filepath, ```/scripts/script.js``` of the wallpaper itself which you can get to by simply right clicking on the wallpaper in wallpaper engine and clicking on "Open in Explorer". Another important thing if you wish to use the SFPRO font from Apple go to ```/fonts/SFPRODISPLAYREGULAR.OTF``` and open it to install it to your device, and then close and reopen Wallpaper Engine.
 
 If you wish to change the wallpapers that are already included with the wallpaper simply add/remove them accordingly to the array: ```backgroundArray``` on line 13, which again is located in ```script.js```.
 

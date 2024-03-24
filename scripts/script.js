@@ -11,7 +11,7 @@ let weatherLatitude = 0;
 let weatherLongitude = 0;
 let city = "";
 let backgroundArray = ["bg1.png", "bg2.png", "bg3.png", "bg4.png", "bg5.png", "bg6.png", "bg7.png", "bg8.png", "bg9.png", "bg10.png", "bg11.png", "bg12.png", "bg13.png"];
-let name = "jsrii";
+let name = "Change Name in script.js!";
 
 let username = document.getElementById("username");
 let greeter = document.getElementById("greetingHeader");
